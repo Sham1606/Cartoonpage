@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+body{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-image: url(http://i1.faceprep.in/cartoon-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 200px;
+}
+
+h1{
+    font-size: 6em;
+    letter-spacing: 10px;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight:400;
+}
+
+section, p, img{
+    padding: 10px;
+}
+
+.cartoons{
+    color: white;
+    padding: 70 px;
+}
+
+#legend of korra{
+    background-color: aqua;
+}
+
+#avatar the last airbender{
+    background-color: burlywood;
+}
+#tom and jerry{
+    background-color: darkcyan;
+}
